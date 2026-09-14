@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const APP_CONFIG = {
   NAME: "FADSSDRODO7 || STOREE",
-  WHATSAPP_PRIMARY: "087713716038",
+  WHATSAPP_PRIMARY: "6283183887513",
   SOCIALS: {
     WHATSAPP_CHANNEL: "https://whatsapp.com/channel/0029VbEIlZC6buMJLTwA4a10",
     TIKTOK: "https://www.tiktok.com/@_899843",
@@ -13,7 +13,7 @@ const APP_CONFIG = {
 
 function createWhatsAppMessage(product, buyerPhone = "") {
   const text = `Halo Admin FADSSDRODO7 || STORE, Saya sudah melakukan pembayaran.\n\nBARANG 📦 : ${product.name}\nNOMINAL 💸 : Rp ${Number(product.price).toLocaleString('id-ID')}\nNO PEMBELI 📱: ${buyerPhone}\nMohon segera dicek dan dikonfirmasi Admin 🙏`;
-  return `https://wa.me/6287713716038?text=${encodeURIComponent(text)}`;
+  return `https://wa.me/6283183887513?text=${encodeURIComponent(text)}`;
 }
 
 export default function App() {
@@ -64,6 +64,7 @@ export default function App() {
         {route === '/contact' && (
           <div className="text-center space-y-3">
             <h2 className="text-lg font-bold">CONTACT</h2>
+            <a href="https://wa.me/6283183887513" target="_blank" rel="noreferrer" className="block w-full py-3 rounded-xl bg-purple-600 text-xs font-bold text-center shadow-[0_0_15px_#a855f7]">[ 💬 CHAT WHATSAPP ]</a>
             <a href={APP_CONFIG.SOCIALS.WHATSAPP_CHANNEL} target="_blank" rel="noreferrer" className="block w-full py-3 rounded-xl bg-purple-600 text-xs font-bold text-center shadow-[0_0_15px_#a855f7]">[ 📢 MASUK CHANNEL ]</a>
           </div>
         )}
