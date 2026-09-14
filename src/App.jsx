@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { APP_CONFIG, createWhatsAppMessage } from './config/constants';
+import { APP_CONFIG, createWhatsAppMessage } from './constants';
 
 export default function App() {
   const [loaded, setLoaded] = useState(false);
