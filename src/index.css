@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #09050d;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.glass-morphism {
+  background: rgba(18, 10, 26, 0.75);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(168, 85, 247, 0.3);
+}
+
+.btn-custom {
+  background: linear-gradient(135deg, rgba(147, 51, 234, 0.8), rgba(88, 28, 135, 0.9));
+  border: 1px solid rgba(168, 85, 247, 0.6);
+  color: white;
+    }
